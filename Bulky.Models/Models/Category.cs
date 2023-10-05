@@ -14,5 +14,6 @@ namespace BulkyWeb.Models
         [DisplayName("Display Order")]
         [Range(1,500 , ErrorMessage = "Display Order Must Be Between 1 : 500")]
         public int DisplayOrder { get; set; }
+        public int MyProperty { get; set; }
     }
 }
