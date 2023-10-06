@@ -22,5 +22,9 @@ body {
 }
 
 input {
-    background : red;
+    border: solid 2px #3e8fd5;
+}
+
+input:focus {
+    border:0;
 }
